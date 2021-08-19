@@ -10,7 +10,9 @@ export class ContactusComponent implements OnInit {
 
   contactusForm = this.fb.group({
     firstname: [''],
-    
+    lastname: [''],
+    email: [''],
+    message: ['']
   })
 
   constructor(private fb: FormBuilder) { }
